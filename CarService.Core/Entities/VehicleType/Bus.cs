@@ -15,7 +15,7 @@ namespace CarService.Core.Entities.VehicleType
         public int UndercarriageId { get; set; }
         public Undercarriage Undercarriage { get; set; }
         public int HandrailId { get; set; }
-        public Handrail Handrail { get; set; }
+        public List<Handrail> Handrail { get; set; }
         public int CabinId { get; set; }
         public Cabin Cabin { get; set; }
     }
