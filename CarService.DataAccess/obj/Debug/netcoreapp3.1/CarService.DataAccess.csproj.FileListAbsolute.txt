@@ -9,3 +9,5 @@ D:\progs\VisualStudioSolutions\CarService\CarService.DataAccess\obj\Debug\netcor
 D:\progs\VisualStudioSolutions\CarService\CarService.DataAccess\obj\Debug\netcoreapp3.1\CarService.DataAccess.csproj.CopyComplete
 D:\progs\VisualStudioSolutions\CarService\CarService.DataAccess\obj\Debug\netcoreapp3.1\CarService.DataAccess.dll
 D:\progs\VisualStudioSolutions\CarService\CarService.DataAccess\obj\Debug\netcoreapp3.1\CarService.DataAccess.pdb
+D:\progs\VisualStudioSolutions\CarService\CarService.DataAccess\bin\Debug\netcoreapp3.1\CarService.DataAccess.runtimeconfig.json
+D:\progs\VisualStudioSolutions\CarService\CarService.DataAccess\bin\Debug\netcoreapp3.1\CarService.DataAccess.runtimeconfig.dev.json
