@@ -16,5 +16,6 @@ namespace CarService.Core.Entities.VehicleType
         public Undercarriage Undercarriage { get; set; }
         public int HydraulicId { get; set; }
         public Hydraulic Hydraulic { get; set; }
+        public List<Wheel> Wheels { get; set; }
     }
 }
