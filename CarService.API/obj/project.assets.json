@@ -5540,7 +5540,7 @@
       ]
     },
     "NuGet.Frameworks/4.7.0": {
-      "sha512": "KuqDbPzjOWbUM6gPMbkvdhlQ10roQAoMM7mNZ8hcY/fH+9J4Zc+qT8dLWoNzGyr0OrxQVdZdbSjy/fxwoICgGg==",
+      "sha512": "qbXaB76XYUVLocLBs8Z9TS/ERGK2wm797feO+0JEPFvT7o7MRadOR77mqaSD4J1k8G+DlZQyq+MlkCuxrkr3ag==",
       "type": "package",
       "path": "nuget.frameworks/4.7.0",
       "files": [
@@ -8399,7 +8399,7 @@
       ]
     },
     "System.Reflection.Metadata/1.6.0": {
-      "sha512": "I4aWCii7N1bmn43vviRfJQYW6UAco1G/CcjJouvgGdb/sr2BRTSnddhaPMg2oxu9VHFn8T1z3dTLq0pna8zmtA==",
+      "sha512": "COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "type": "package",
       "path": "system.reflection.metadata/1.6.0",
       "files": [
@@ -9279,7 +9279,7 @@
       ]
     },
     "System.Security.Cryptography.Cng/4.5.0": {
-      "sha512": "O4tqXxWCD8y1IU1VTgzbuBFwoRahrADhDUxHjwezhHCsqyFNyQ5EytjWBxu0EsZuH14b4UO2pFkG063K2h/9Ug==",
+      "sha512": "WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
       "type": "package",
       "path": "system.security.cryptography.cng/4.5.0",
       "files": [
@@ -9552,7 +9552,7 @@
       ]
     },
     "System.Security.Permissions/4.5.0": {
-      "sha512": "vDQ7q30Soe0a1cPhvxn+7IFmMeTG5IP+hTQrnKQDjTNpD2epqwbZSzMM2Git5TXBr4Kwwhc/0SEtJY0qPoiegA==",
+      "sha512": "9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
       "type": "package",
       "path": "system.security.permissions/4.5.0",
       "files": [
@@ -9837,7 +9837,7 @@
       ]
     },
     "System.Text.Encodings.Web/4.5.0": {
-      "sha512": "JF+wDdfFiRl3rz3dPMfR6aR568AW2J5CUMmhSflgHDz4zbVK4/00ax8UHnHyEMvblPewgNugjuA4oyoL8Pex2g==",
+      "sha512": "Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
       "type": "package",
       "path": "system.text.encodings.web/4.5.0",
       "files": [
@@ -10480,27 +10480,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nurk21\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\pavlo.levchenko\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.API\\CarService.API.csproj",
+      "projectUniqueName": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.API\\CarService.API.csproj",
       "projectName": "CarService.API",
-      "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.API\\CarService.API.csproj",
-      "packagesPath": "C:\\Users\\Nurk21\\.nuget\\packages\\",
-      "outputPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.API\\obj\\",
+      "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.API\\CarService.API.csproj",
+      "packagesPath": "C:\\Users\\pavlo.levchenko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Nurk21\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\pavlo.levchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -10512,11 +10505,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Common\\CarService.Common.csproj": {
-              "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Common\\CarService.Common.csproj"
+            "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Common\\CarService.Common.csproj": {
+              "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Common\\CarService.Common.csproj"
             },
-            "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Services\\CarService.Services.csproj": {
-              "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Services\\CarService.Services.csproj"
+            "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Services\\CarService.Services.csproj": {
+              "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Services\\CarService.Services.csproj"
             }
           }
         }
@@ -10625,7 +10618,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

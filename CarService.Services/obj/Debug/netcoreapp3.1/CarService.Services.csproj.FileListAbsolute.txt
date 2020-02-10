@@ -11,3 +11,16 @@ D:\progs\VisualStudioSolutions\CarService\CarService.Services\obj\Debug\netcorea
 D:\progs\VisualStudioSolutions\CarService\CarService.Services\obj\Debug\netcoreapp3.1\CarService.Services.csproj.CopyComplete
 D:\progs\VisualStudioSolutions\CarService\CarService.Services\obj\Debug\netcoreapp3.1\CarService.Services.dll
 D:\progs\VisualStudioSolutions\CarService\CarService.Services\obj\Debug\netcoreapp3.1\CarService.Services.pdb
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\obj\Debug\netcoreapp3.1\CarService.Services.csprojAssemblyReference.cache
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\obj\Debug\netcoreapp3.1\CarService.Services.AssemblyInfoInputs.cache
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\obj\Debug\netcoreapp3.1\CarService.Services.AssemblyInfo.cs
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\obj\Debug\netcoreapp3.1\CarService.Services.dll
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\obj\Debug\netcoreapp3.1\CarService.Services.pdb
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\bin\Debug\netcoreapp3.1\CarService.Services.deps.json
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\bin\Debug\netcoreapp3.1\CarService.Services.dll
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\bin\Debug\netcoreapp3.1\CarService.Services.pdb
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\bin\Debug\netcoreapp3.1\CarService.Core.dll
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\bin\Debug\netcoreapp3.1\CarService.DataAccess.dll
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\bin\Debug\netcoreapp3.1\CarService.Core.pdb
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\bin\Debug\netcoreapp3.1\CarService.DataAccess.pdb
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Services\obj\Debug\netcoreapp3.1\CarService.Services.csproj.CopyComplete

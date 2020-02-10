@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200210082529_Init.cs" />
+    <Compile Remove="Migrations\20200210082529_Init.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Mapings\" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0" />

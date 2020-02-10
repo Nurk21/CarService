@@ -19,7 +19,7 @@ namespace CarService.DataAccess.DataBase
             modelBuilder
                 .Entity<Body>(x =>
                 {
-                    x.HasKey(x => x.Id);
+                    x.HasKey(y => y.Id);
                     x.ToTable("Bodies");
 
                     x.HasOne(u => u.Car)
@@ -41,7 +41,7 @@ namespace CarService.DataAccess.DataBase
             modelBuilder
                 .Entity<Brakes>(x =>
                 {
-                    x.HasKey(x => x.Id);
+                    x.HasKey(y => y.Id);
                     x.ToTable("Brakess");
 
                     x.HasOne(u => u.Car)
@@ -63,7 +63,7 @@ namespace CarService.DataAccess.DataBase
             modelBuilder
                 .Entity<Undercarriage>(x =>
                 {
-                    x.HasKey(x => x.Id);
+                    x.HasKey(y => y.Id);
                     x.ToTable("Undercarriages");
 
                     x.HasOne(u => u.Car)
@@ -85,30 +85,30 @@ namespace CarService.DataAccess.DataBase
             modelBuilder
                 .Entity<Wheel>(x =>
                 {
-                    x.HasKey(x => x.Id);
-                    x.ToTable("Wheels");
+                    x.HasKey(y => y.Id);
+                    x.ToTable("Wheels");                 
 
                     x.HasOne(u => u.Car)
                      .WithMany(p => p.Wheels)
                      .HasForeignKey(p => p.CarId)
-                     .OnDelete(DeleteBehavior.Cascade);
+                     .OnDelete(DeleteBehavior.NoAction);
 
                     x.HasOne(u => u.Bus)
                      .WithMany(p => p.Wheels)
                      .HasForeignKey(p => p.BusId)
-                     .OnDelete(DeleteBehavior.Cascade);
+                     .OnDelete(DeleteBehavior.NoAction);
 
                     x.HasOne(u => u.Truck)
                      .WithMany(p => p.Wheels)
                      .HasForeignKey(p => p.TruckId)
-                     .OnDelete(DeleteBehavior.Cascade);
+                     .OnDelete(DeleteBehavior.NoAction);
                 });
 
             modelBuilder
                 .Entity<Cabin>(x =>
                 {
                     x.HasKey(e => e.Id);
-                    x.ToTable("Cabins");
+                    x.ToTable("Cabins");                    
 
                     x.HasOne(u => u.Bus)
                      .WithOne(u => u.Cabin)
@@ -119,7 +119,7 @@ namespace CarService.DataAccess.DataBase
             modelBuilder
                 .Entity<Handrail>(x =>
                 {
-                    x.HasKey(x => x.Id);
+                    x.HasKey(y => y.Id);
                     x.ToTable("Handrails");
 
                     x.HasOne(b => b.Bus)
@@ -137,35 +137,35 @@ namespace CarService.DataAccess.DataBase
                     x.HasOne(u => u.Truck)
                      .WithOne(u => u.Hydraulic)
                      .HasForeignKey<Truck>(u => u.Id)
-                     .OnDelete(DeleteBehavior.Cascade);
-
+                     .OnDelete(DeleteBehavior.Cascade); ;                     
                 });
 
             modelBuilder
-                .Entity<Car>(s =>
+                .Entity<Car>(car =>
                 {
-                    s.HasKey(x => x.Id);
-                    s.ToTable("Cars");
+                    car.HasKey(x => x.Id);
+                    car.ToTable("Cars");
                 });
 
             modelBuilder
-                .Entity<Bus>(d =>
+                .Entity<Bus>(bus =>
                 {
-                    d.HasKey(d => d.Id);
-                    d.ToTable("Buses");
+                    bus.HasKey(x => x.Id);
+                    bus.ToTable("Buses");
                 });
             modelBuilder
-                .Entity<Truck>(x =>
+                .Entity<Truck>(truck =>
                 {
-                    x.HasKey(y => y.Id);
-                    x.ToTable("Truckes");
+                    truck.HasKey(y => y.Id);
+                    truck.ToTable("Truckes");
                 });
         }
 
 
             protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer(@"Server=LAPTOP-126LHOT8\SQLEXPRESS;Database=CarService;Trusted_Connection=True;");
+        {   
+            optionsBuilder.UseSqlServer("Data Source=LAPTOP-126LHOT8\\SQLEXPRESS; Initial Catalog=CarService;Integrated Security=True");
+            // optionsBuilder.UseSqlServer(@"Server=LAPTOP-126LHOT8\SQLEXPRESS;Database=CarService;Trusted_Connection=True;");
         }
     }
    

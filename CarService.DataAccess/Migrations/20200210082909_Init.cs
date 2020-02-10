@@ -2,7 +2,7 @@
 
 namespace CarService.DataAccess.Migrations
 {
-    public partial class init : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -80,11 +80,12 @@ namespace CarService.DataAccess.Migrations
                 name: "Buses",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false),
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
                     BodyId = table.Column<int>(nullable: false),
                     BrakesId = table.Column<int>(nullable: false),
                     UndercarriageId = table.Column<int>(nullable: false),
-                    CabinIdId = table.Column<int>(nullable: true)
+                    CabinId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -102,14 +103,8 @@ namespace CarService.DataAccess.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Buses_Cabins_CabinIdId",
-                        column: x => x.CabinIdId,
-                        principalTable: "Cabins",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Buses_Cabins_Id",
-                        column: x => x.Id,
+                        name: "FK_Buses_Cabins_CabinId",
+                        column: x => x.CabinId,
                         principalTable: "Cabins",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -231,20 +226,17 @@ namespace CarService.DataAccess.Migrations
                         name: "FK_Wheels_Buses_BusId",
                         column: x => x.BusId,
                         principalTable: "Buses",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Wheels_Cars_CarId",
                         column: x => x.CarId,
                         principalTable: "Cars",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                     table.ForeignKey(
                         name: "FK_Wheels_Truckes_TruckId",
                         column: x => x.TruckId,
                         principalTable: "Truckes",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(
@@ -260,9 +252,10 @@ namespace CarService.DataAccess.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Buses_CabinIdId",
+                name: "IX_Buses_CabinId",
                 table: "Buses",
-                column: "CabinIdId");
+                column: "CabinId",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_Buses_UndercarriageId",

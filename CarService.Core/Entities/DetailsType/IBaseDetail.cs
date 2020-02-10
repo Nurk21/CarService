@@ -6,7 +6,8 @@ using System.Text;
 namespace CarService.Core.Entities.DetailsType
 {
     public interface IBaseDetail
-    {[Key]
+    {
+        [Key]
         public int Id { get; set; }
         public double RepairPrice { get; set; } 
     }

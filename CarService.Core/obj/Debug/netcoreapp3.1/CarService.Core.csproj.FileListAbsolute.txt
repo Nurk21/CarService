@@ -6,3 +6,11 @@ D:\progs\VisualStudioSolutions\CarService\CarService.Core\obj\Debug\netcoreapp3.
 D:\progs\VisualStudioSolutions\CarService\CarService.Core\obj\Debug\netcoreapp3.1\CarService.Core.AssemblyInfo.cs
 D:\progs\VisualStudioSolutions\CarService\CarService.Core\obj\Debug\netcoreapp3.1\CarService.Core.dll
 D:\progs\VisualStudioSolutions\CarService\CarService.Core\obj\Debug\netcoreapp3.1\CarService.Core.pdb
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Core\bin\Debug\netcoreapp3.1\CarService.Core.deps.json
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Core\bin\Debug\netcoreapp3.1\CarService.Core.dll
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Core\bin\Debug\netcoreapp3.1\CarService.Core.pdb
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Core\obj\Debug\netcoreapp3.1\CarService.Core.csprojAssemblyReference.cache
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Core\obj\Debug\netcoreapp3.1\CarService.Core.AssemblyInfoInputs.cache
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Core\obj\Debug\netcoreapp3.1\CarService.Core.AssemblyInfo.cs
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Core\obj\Debug\netcoreapp3.1\CarService.Core.dll
+C:\Users\pavlo.levchenko\source\repos\nurk21\Car\CarService.Core\obj\Debug\netcoreapp3.1\CarService.Core.pdb

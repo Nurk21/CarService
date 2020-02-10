@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Common\\CarService.Common.csproj": {}
+    "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Common\\CarService.Common.csproj": {}
   },
   "projects": {
-    "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Common\\CarService.Common.csproj": {
+    "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Common\\CarService.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Common\\CarService.Common.csproj",
+        "projectUniqueName": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Common\\CarService.Common.csproj",
         "projectName": "CarService.Common",
-        "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Common\\CarService.Common.csproj",
-        "packagesPath": "C:\\Users\\Nurk21\\.nuget\\packages\\",
-        "outputPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Common\\obj\\",
+        "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Common\\CarService.Common.csproj",
+        "packagesPath": "C:\\Users\\pavlo.levchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Common\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nurk21\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\pavlo.levchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -32,14 +27,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Core\\CarService.Core.csproj": {
-                "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Core\\CarService.Core.csproj"
+              "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Core\\CarService.Core.csproj": {
+                "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Core\\CarService.Core.csproj"
               },
-              "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.DataAccess\\CarService.DataAccess.csproj": {
-                "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.DataAccess\\CarService.DataAccess.csproj"
+              "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.DataAccess\\CarService.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.DataAccess\\CarService.DataAccess.csproj"
               },
-              "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Services\\CarService.Services.csproj": {
-                "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Services\\CarService.Services.csproj"
+              "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Services\\CarService.Services.csproj": {
+                "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Services\\CarService.Services.csproj"
               }
             }
           }
@@ -67,27 +62,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Core\\CarService.Core.csproj": {
+    "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Core\\CarService.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Core\\CarService.Core.csproj",
+        "projectUniqueName": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Core\\CarService.Core.csproj",
         "projectName": "CarService.Core",
-        "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Core\\CarService.Core.csproj",
-        "packagesPath": "C:\\Users\\Nurk21\\.nuget\\packages\\",
-        "outputPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Core\\obj\\",
+        "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Core\\CarService.Core.csproj",
+        "packagesPath": "C:\\Users\\pavlo.levchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nurk21\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\pavlo.levchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -154,27 +144,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.DataAccess\\CarService.DataAccess.csproj": {
+    "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.DataAccess\\CarService.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.DataAccess\\CarService.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.DataAccess\\CarService.DataAccess.csproj",
         "projectName": "CarService.DataAccess",
-        "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.DataAccess\\CarService.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Nurk21\\.nuget\\packages\\",
-        "outputPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.DataAccess\\CarService.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\pavlo.levchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nurk21\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\pavlo.levchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -186,8 +171,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Core\\CarService.Core.csproj": {
-                "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Core\\CarService.Core.csproj"
+              "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Core\\CarService.Core.csproj": {
+                "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Core\\CarService.Core.csproj"
               }
             }
           }
@@ -229,27 +214,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Services\\CarService.Services.csproj": {
+    "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Services\\CarService.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Services\\CarService.Services.csproj",
+        "projectUniqueName": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Services\\CarService.Services.csproj",
         "projectName": "CarService.Services",
-        "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Services\\CarService.Services.csproj",
-        "packagesPath": "C:\\Users\\Nurk21\\.nuget\\packages\\",
-        "outputPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Services\\obj\\",
+        "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Services\\CarService.Services.csproj",
+        "packagesPath": "C:\\Users\\pavlo.levchenko\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Nurk21\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\pavlo.levchenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -261,11 +241,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Core\\CarService.Core.csproj": {
-                "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.Core\\CarService.Core.csproj"
+              "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Core\\CarService.Core.csproj": {
+                "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.Core\\CarService.Core.csproj"
               },
-              "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.DataAccess\\CarService.DataAccess.csproj": {
-                "projectPath": "D:\\progs\\VisualStudioSolutions\\CarService\\CarService.DataAccess\\CarService.DataAccess.csproj"
+              "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.DataAccess\\CarService.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\pavlo.levchenko\\source\\repos\\nurk21\\Car\\CarService.DataAccess\\CarService.DataAccess.csproj"
               }
             }
           }
@@ -299,7 +279,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

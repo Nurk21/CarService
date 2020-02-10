@@ -7,7 +7,7 @@ namespace CarService.Services
 {
     public interface IBaseService<T> where T : IBaseCar 
     {
-        public int EstimatePrice();
-        public void Repair();
+        int EstimatePrice();
+        void Repair();
     }
 }
